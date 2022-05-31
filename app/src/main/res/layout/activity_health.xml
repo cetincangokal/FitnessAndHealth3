@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF7649"
+    tools:context=".healthActivity">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/fitness"
+        android:backgroundTint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="270dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Yağ Oranı (%) : "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/YgOrani1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Vücut Kütle İndeksi (kg / metrekare) : "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/Vki1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="370dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Günlük Kalori İhtiyacı (kcal/gün) : "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/GunluKalori1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="3dp"
+
+            android:padding="5dp"
+
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="420dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Vücut Yüzey Alanı (metrekare): "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/VctYzyAlani1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="470dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Yağsız Vücut Ağırlığı (kg) : "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/Yva1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="520dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="İdeal Kilo (kg) : "
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+
+            android:id="@+id/IdealKılo1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/button_custom"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="100dp"
+        android:layout_marginLeft="155dp"
+        android:id="@+id/Hesapla"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button_custom"
+        android:text="Hesapla"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_height="50dp"/>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+

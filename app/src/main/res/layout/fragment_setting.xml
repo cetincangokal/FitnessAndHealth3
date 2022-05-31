@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45341E"
+    tools:context=".Fragment.setting">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Hesap Bilgileri"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="E-Mail"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/setting_frag_mail"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_custom"
+        android:padding="8dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="140dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button_custom"
+        android:id="@+id/updatePassword"
+        android:text="Şifreyi Güncelle"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:onClick="updatePassword"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="210dp"
+        android:layout_marginTop="320dp"
+        android:id="@+id/delete"
+        android:background="@drawable/button_custom"
+        android:text="Hesabını Devre Dışı Bırak"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:onClick="Delete"
+        android:layout_marginLeft="175dp"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#13414e"
+    tools:context=".Fragment.person">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Fragment.person">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="İsim"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:padding="8dp"
+            android:layout_marginTop="90dp"
+            android:id="@+id/person_fragment_name"
+            android:layout_marginLeft="35dp"
+
+            android:textColor="@color/white"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Soyad"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="135dp"
+            android:layout_marginLeft="48dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:layout_marginTop="160dp"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:id="@+id/person_fragment_surname"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Boy"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/person_fragment_height"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/button_custom"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Kilo"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="275dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:layout_marginTop="300dp"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:id="@+id/person_fragment_weight"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Yaş"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="345dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:id="@+id/person_fragment_age"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="370dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Kalça çevresi (cm)"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="415dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/person_fragment_hip"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="440dp"
+            android:background="@drawable/button_custom"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Bel çevresi (cm)"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="485dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:layout_marginTop="510dp"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:id="@+id/person_fragment_weist"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Boyun çevresi (cm)"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="555dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="340dp"
+            android:id="@+id/person_fragment_neck"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button_custom"
+            android:layout_height="40dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_marginTop="640dp"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/person_fragment_Update"
+            android:background="@drawable/button_custom"
+            android:text="Güncelle"
+            android:textColor="@color/white"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+</ScrollView>

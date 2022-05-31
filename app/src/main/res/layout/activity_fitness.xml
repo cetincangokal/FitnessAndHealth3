@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#073C2E"
+    tools:context=".FitnessActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:text="AĞIRLIK TÜRLERİ"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="#2E7154"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="470dp">
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="470dp"
+        android:gravity="center"
+        android:text="Hareket tamamen doğaldır. Yani hareketi yaparken barın ilerlediği hiza tamamen doğaldır. Vücudunuz tehlikeli olabilecek sabit bir pozisyona girmek zorunda kalmaz. Ek kasları kullanır. Hareket sırasında ağırlığı kontrol etmeniz ve sabit tutmanız yani dengede tutmanız gerektiği için, hareketi yapmanızı sağlayan temel kasların yanı sıra sabitleyici kasları da kullanırsınız. Oldukça fonksiyoneldir. Serbest ağırlık hareketleri gerçek hayatta yaptığınız hareketlere çok benzer ve bu hareketleri de aynen gerçek hayatta yaptığınız hareketler gibi yaparsınız. Ev için idealdir. Eğer evinizde çalışmak istiyorsanız sadece bir barbell (veya dambıl) ve birkaç ağırlık alarak bir sürü farklı hareketi yapabilirsiniz."
+        android:textSize="13sp"
+        android:textColor="@color/white"/>
+
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="120dp"
+        android:background="#2E7154"
+        android:layout_height="310dp">
+
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="310dp"
+            android:gravity="center"
+            android:text="Hareket tamamen doğaldır. Yani hareketi vücudunuz için tamamen doğal bir çizgide yaparsınız. Hiçbir şekilde sabit ve doğal olmayan bir çizgide hareket etmezsiniz. Stabilize edici kasları kullanırsınız. Vücudunuzu denge tutmak ve stalibize etmek için, hedef kasların yanı süre başka kaslar da çalışır ve daha fazla güçlenirsiniz. Oldukça fonksiyoneldir. Vücut ağırlığıyla yapılan hareketler gerçek hayatta yaptığınız hareketlerin aynısıdır."
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/serbest_Btn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="#61BD95"
+        android:text="Serbest ağırlık"
+        android:textColor="#61BD95" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="70dp"
+        android:layout_marginTop="600dp"
+        android:id="@+id/vücut_Btn"
+        android:layout_marginLeft="280dp"
+        android:text="Vücut Ağırlığı"
+        android:textColor="#61BD95"
+        android:backgroundTint="#61BD95"
+        android:background="@drawable/button_custom"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

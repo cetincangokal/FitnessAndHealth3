@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#073C2E"
+    android:padding="5dp"
+
+    tools:context=".Fragment.Home">
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Fitness"
+        android:gravity="center"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="#F3AD96"
+        android:textColor="#F3AD96"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_weight=".5"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_height="550dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/fitness_imageBTN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/spor" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:backgroundTint="#F3AD96"
+        android:text="Health"
+        android:layout_marginLeft="10dp"
+        android:textColor="#F3AD96"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/health_imageBTN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/health" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
